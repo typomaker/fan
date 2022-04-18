@@ -10,7 +10,7 @@ go get github.com/typomaker/fan
 ## Usage
 Use to implement fanin and fanout concepts.
 
-### Fanout
+### Basic case
 ```golang
 // use cancelable context to avoid goroutine leaks
 var ctx, cancel = context.WithCancel(context.Background())
